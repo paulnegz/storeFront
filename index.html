@@ -110,12 +110,15 @@
                   paypal.Buttons().render('#paypal-button-container');
                   // This function displays Smart Payment Buttons on your web page.
                 </script> -->
-                <div class="ml-4 payment">
-                  <div class="ml-5">
-                    <div class="d-block align-middle ml-5">
-                      <input type="hidden" name="cmd" value="_s-xclick" >
+                <!-- PAYPAL -->
+                <div class="row">
+                  <div class ="col-2">
+                  </div>
+                  <div class ="col-8">
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                      <input type="hidden" name="cmd" value="_s-xclick">
                       <input type="hidden" name="hosted_button_id" value="E3WPHL7CNHNGU">
-                      <table>
+                      <table class="ml-5">
                       <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
                         <option value="Small">Small $30.00 USD</option>
                         <option value="Medium">Medium $30.00 USD</option>
@@ -123,14 +126,16 @@
                       </select> </td></tr>
                       </table>
                       <input type="hidden" name="currency_code" value="USD">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <input type="image" src="./img/addToCart.PNG" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
+                    </form>        
                   </div>
-                </div>
+                  <div class ="col-2">
 
-              </div>        
-            </div>
+                  </div>               
+                </div>               
+                  
+              </div>
             </div>
           </div>
 
@@ -140,7 +145,30 @@
                 <div class="card-body">
                   <h5 class="card-title transformercard">PArty Over Here</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary d-block">$30</a>
+                  <!-- PAYPAL -->
+                  <div class="row">
+                    <div class ="col-2">
+                    </div>
+                    <div class ="col-8">
+                      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="E3WPHL7CNHNGU">
+                        <table class="ml-5">
+                        <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                          <option value="Small">Small $30.00 USD</option>
+                          <option value="Medium">Medium $30.00 USD</option>
+                          <option value="Large">Large $30.00 USD</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="image" src="./img/addToCart.PNG" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>        
+                    </div>
+                    <div class ="col-2">
+
+                    </div>               
+                  </div>          
                 </div>
               </div>
             </div>
@@ -153,7 +181,22 @@
                   <h5 class="card-title transformercard">Love Jeje</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <!-- PAYPAL -->
-                  <a href="#" class="btn btn-primary d-block">$30</a>       
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="E3WPHL7CNHNGU">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                      <option value="Small">Small $30.00 USD</option>
+                      <option value="Medium">Medium $30.00 USD</option>
+                      <option value="Large">Large $30.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form> 
+
+              
                   
                     
                 </div>
@@ -167,7 +210,20 @@
               <div class="card-body">
                 <h5 class="card-title transformercard">P.O.H</h5>
                 <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary d-block">$30</a>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="E3WPHL7CNHNGU">
+                  <table>
+                  <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                    <option value="Small">Small $30.00 USD</option>
+                    <option value="Medium">Medium $30.00 USD</option>
+                    <option value="Large">Large $30.00 USD</option>
+                  </select> </td></tr>
+                  </table>
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form> 
               </div>
             </div>
           </div>
@@ -192,7 +248,20 @@
                 <div class="card-body">
                   <h5 class="card-title transformercard">Love Jeje</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary d-block">$30</a>
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="E3WPHL7CNHNGU">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                      <option value="Small">Small $30.00 USD</option>
+                      <option value="Medium">Medium $30.00 USD</option>
+                      <option value="Large">Large $30.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form> 
                     
                 </div>
               </div>
@@ -264,7 +333,7 @@
                       <div class="card-body">
                         <h5 class="card-title transformercard">Love Jeje</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary d-block">$30</a>
+                        <a href="#" class="btn btn-primary d-block">Add To Cart</a>
                       </div>
                     </div>
                   </div>

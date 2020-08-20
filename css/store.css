@@ -35,11 +35,11 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
 
 p.lead {
@@ -209,10 +209,24 @@ a:hover, a:focus, a:active {
   font-size: 34px;
   text-align: center;
   width: 100%;
+  color: #044D5D !important;
 }
 .block{
   font-family: block;
   font-size: 24px;
   text-align: center;
   width: 100%;
+}
+.transformercard{
+  font-family: transformer;
+  font-size: 26px;
+  text-align: center;
+  width: 100%;
+  color: #044D5D !important;
+}
+.blockheader{
+  font-family: block;
+  font-size: 40px;
+  text-align: center;
+  color: #044D5D !important;
 }

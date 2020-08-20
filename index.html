@@ -68,7 +68,7 @@
             <a class="nav-link js-scroll-trigger transformer" href="#contactus">contact us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link block" href="#paypalCart">FAQs</a>
+            <a class="nav-link block" data-toggle="modal" data-target="#FAQ" href="#paypalCart">FAQs</a>
           </li>
         </ul>
       </div>
@@ -77,10 +77,21 @@
 
     <!-- Step 3: Content -->
     <div class="container-fluid p-0">
+    <hr class="mb-5">
     <!-- CART -->
     <section class="d-flex flex-column mb-5" id="cart">
       <div class="my-auto mb-5">
-        <h2 class="mb-5 transformerhead">CART</h2>
+        <h2 class="mb-5 transformerhead d-block">CART <span class="material-icons">add_shopping_cart</span> </h2>
+        <div class="card-text row justify-content-center d-flex">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class='d-flex'>
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="./img/viewCart.PNG" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="./img/viewCartL.PNG" width="1" height="1">
+          </form>
+        </div>
+
+          
       </div>
     </section>
     <hr class="m-0">
@@ -560,6 +571,48 @@
       </section>
 
     </div>
+     <!-- Modal about me -->
+     <div class="modal fade" id="FAQ" tabindex="-1" role="dialog" aria-labelledby="#FAQ" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <div class="about-me">
+                      <div class="about-title">
+                          <h3 class="row justify-content-center d-flex">FAQ's</h3>
+                      </div>
+                      <div class="opacity-box about-description">
+                        <!-- 1st FAQ -->
+                        <h5>I just placed an order, can I cancel it?</h5>
+                        <p>Unfortunately, we are unable to cancel an order once it has been fulfilled,
+                             and packed. We strive to dispatch orders efficiently to meet the expectations of our valued customers. </p>
+                        <!-- 2nd FAQ -->
+                        <h5>I only received one of the items in my order, where is the rest?</h5>
+                        <p>We do our best to pack all item(s) to the specifications of your original order, if for some reason you are missing 
+                          an item(s) upon your delivery please e-mail Customer Service at bobbythegeneral@bobbythegeneral.com subject: missing items. </p>
+                        <!-- 3rd FAQ -->
+                        <h5>Can I change my ship to address after my order has been placed?</h5>
+                        <p>Please note we are unable to update an order once it has been fulfilled, and/or packed. We do not change addresses placed on orders for security reasons. 
+                          You’re welcome to contact USPS and have the package forwarded to your new address.
+                           We strive to dispatch orders efficiently to meet the expectations of our valued customers. </p>
+                        <!-- 4th FAQ -->
+                        <h5>Can I change my order after it has been placed?</h5>
+                        <p>Our warehouse pick & pack team fulfills each order according to invoice. Unfortunately, we are unable to change items or
+                           sizes once an order has been placed, but we’ll do our best to get your change made before your order goes out. </p>
+
+                      </div>
+                  </div>
+                  </div>
+                  <div class="modal-img">
+                      <img src="media/modal/img-1.jpg" alt="">
+                  </div>
+                  <div class="modal-buttons">
+                      <a class="yellow-btn" href="#" data-dismiss="modal" aria-hidden="true" style="color: white;"><span class="mdi mdi-undo-variant"></span>Back to main</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Modal about me -->
 
 
         

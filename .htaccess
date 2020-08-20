@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+RewriteCond %{ENV:HTTPS} !on [OR]
+RewriteCond %{HTTP_HOST} !^www.shop.bobbythegeneral.com/#tshirt$ [NC]
+RewriteRule ^(.*)$ www.shop.bobbythegeneral.com/#tshirt$1 [L,R=301]

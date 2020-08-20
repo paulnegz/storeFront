@@ -16,16 +16,7 @@ body {
     padding-left: 17rem;
   }
 }
-@font-face{
-  src: url(./Transformers.ttf);
-  font-family: transformer;
-}
-.transformer{
-    font-family: transformer;
-    font-size: 24px;
-    text-align: center;
-    width: 100%;
-}
+
 h1,
 h2,
 h3,
@@ -198,4 +189,30 @@ a {
 
 a:hover, a:focus, a:active {
   color: #78FFD6;
+}
+@font-face{
+  src: url(./Transformers.ttf);
+  font-family: transformer;
+}
+@font-face{
+  src: url(./3dBlock.ttf);
+  font-family: block;
+}
+.transformer{
+    font-family: transformer;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+.transformerhead{
+  font-family: transformer;
+  font-size: 34px;
+  text-align: center;
+  width: 100%;
+}
+.block{
+  font-family: block;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
 }

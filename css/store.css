@@ -59,7 +59,7 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
-  color: #fff !important;
+  color: #fff ;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -150,8 +150,8 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 5rem ;
+  padding-bottom: 5rem ;
   max-width: 75rem;
 }
 
@@ -170,17 +170,17 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 3rem ;
+    padding-bottom: 3rem ;
   }
 }
 
 .bg-primary {
-  background-color: #044D5D !important;
+  background-color: #044D5D ;
 }
 
 .text-primary {
-  color: #06748C !important;
+  color: #06748C ;
 }
 
 a {
@@ -209,7 +209,7 @@ a:hover, a:focus, a:active {
   font-size: 34px;
   text-align: center;
   width: 100%;
-  color: #044D5D !important;
+  color: #044D5D ;
 }
 .block{
   font-family: block;
@@ -222,13 +222,13 @@ a:hover, a:focus, a:active {
   font-size: 26px;
   text-align: center;
   width: 100%;
-  color: #044D5D !important;
+  color: #044D5D ;
 }
 .blockheader{
   font-family: block;
   font-size: 40px;
   text-align: center;
-  color: #044D5D !important;
+  color: #044D5D ;
 }
 h5{
   font-size: 15px;

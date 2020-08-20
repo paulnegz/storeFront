@@ -16,7 +16,16 @@ body {
     padding-left: 17rem;
   }
 }
-
+@font-face{
+  src: url(./Transformers.ttf);
+  font-family: transformer;
+}
+.transformer{
+    font-family: transformer;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
 h1,
 h2,
 h3,

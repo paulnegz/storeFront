@@ -5,6 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- O
 
 
     <title>Bootstrap About Page</title>
@@ -28,6 +30,10 @@
   </head>
 
   <body id="page-top">
+    <!-- PAYPAL -->
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=AWp7V1mlvKNuMEOYbgMlUYX-l6UTUq2bnHkqOjwKrVXQZGZpAL7MkNPZqYnr7UUrIien1KQ_Bmu28OnQ"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+  </script>
 
     <!-- Step 2: Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -84,7 +90,15 @@
               <div class="card-body">
                 <h5 class="card-title">Love Jeje</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary d-block">$30</a>
+                <!-- PAYPAL -->
+                <div id="paypal-button-container"></div>
+
+                <script>
+                  paypal.Buttons().render('#paypal-button-container');
+                  // This function displays Smart Payment Buttons on your web page.
+                </script>
+            
+                
                   
               </div>
             </div>
@@ -100,17 +114,24 @@
                 </div>
               </div>
             </div>
-            
+
+
           <div class="col-sm-4">
-          <div class="card">
-              <img class="card-img-top" src="./img/blackTshirt2.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Love penti</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary d-block">$30</a>>
+            <div class="card">
+                <img class="card-img-top" src="./img/blackTshirt2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Love Jeje</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- PAYPAL -->
+                  <a href="#" class="btn btn-primary d-block">$30</a>
+
+              
+                  
+                    
+                </div>
               </div>
-            </div>
-          </div>
+            </div>  
+            
 
           <div class="col-sm-4">
           <div class="card">
@@ -136,7 +157,19 @@
           <h2 class="mb-5 transformerhead">Hoodies</h2>
 
           <div class="row">
-              
+            
+          <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="./img/blackTshirt1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Love Jeje</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary d-block">$30</a>
+                    
+                </div>
+              </div>
+            </div>
+            
             <div class="col-sm-4">
               <div class="card">
                   <img class="card-img-top" src="./img/whiteTshirt2.jpg" alt="Card image cap">
@@ -172,6 +205,42 @@
                   </div>
                 </div>
               </div>
+
+              <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="./img/blackTshirt1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Love Jeje</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary d-block">$30</a>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="card">
+                      <img class="card-img-top" src="./img/blackTshirt1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Love Jeje</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary d-block">$30</a>
+                          
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/blackTshirt1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Love Jeje</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary d-block">$30</a>
+                            
+                        </div>
+                      </div>
+                    </div>
 
           </div>
 
